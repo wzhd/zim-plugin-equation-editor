@@ -1,0 +1,1 @@
+from equationeditor import InsertEquationPlugin
