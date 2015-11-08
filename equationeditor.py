@@ -13,7 +13,7 @@ from zim.applications import Application, ApplicationError
 
 # TODO put these commands in preferences
 latexcmd = ('latex', '-no-shell-escape', '-halt-on-error')
-dvipngcmd = ('dvipng', '-q', '-bg', 'Transparent', '-T', 'tight', '-o')
+dvipngcmd = ('dvipng', '-D', '192', '-q', '-bg', 'Transparent', '-T', 'tight', '-o')
 
 class InsertEquationPlugin(ImageGeneratorPlugin):
 
